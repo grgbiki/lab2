@@ -1,18 +1,25 @@
 body{
     font-family: Arial, Arial Black, Verdana, Trebuchet MS,Georgia, Tahoma, Courier New, Times New Roman;
-    background-color: burlywood;
+    background-color: grey;
 }
 .about>h1, p{
     text-align: center;
 }
 
 h1, h2{
-    color: cadetblue;
+    color: lightseagreen;
     font-weight: 500;
 }
 
 h2{
     font-size: 20px;
+}
+
+h4{
+    color: orange;
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: 600;
 }
 
 b{
@@ -30,4 +37,32 @@ b{
 .mood>img{
     width: 300px;
     height: 250px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+p::first-letter{
+    font-size: 150%;
+}
+.movie>p::first-letter{
+    font-size: 100%;
+}
+
+.movie>p{
+    margin: 5px 0 5px 25px;
+    font-size: 14px;
+    text-align: start;
+}
+
+ol {
+    transform: rotate(180deg);
+    margin-left: 30px;
+}
+ol > li {
+    transform: rotate(-180deg);
 }
